@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live streaming</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+      div {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Live streaming</h1>
+    <div>
+      <img src="{{ url_for('video') }}" />
+    </div>
+  </body>
+</html>
