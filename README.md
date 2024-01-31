@@ -1,6 +1,4 @@
-Certainly! Here's a more detailed README.md for your webcam live streaming project:
 
-```markdown
 # Webcam Live Streaming with Flask
 
 This project demonstrates how to create a simple webcam live streaming application using Flask and OpenCV (cv2). It captures video from the webcam and streams it over a web interface using Flask's server-sent events. Users can access the live stream by visiting the specified URL.
